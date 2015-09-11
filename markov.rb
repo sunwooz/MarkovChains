@@ -12,6 +12,7 @@ class MarkovChain
   def add(word, next_word)
     @words[word] = Hash.new(0) if !@words[word]
     @words[word][next_word] += 1
+    binding.pry
   end
 
   def get(word)
