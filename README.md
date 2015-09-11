@@ -1,1 +1,1 @@
-Playing with first order/second order Markov Chains.
+Using the Markov Chain technique to input a body of text and generate new semi-coherent text.
