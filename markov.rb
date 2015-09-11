@@ -33,7 +33,7 @@ File.read("hamlet.txt")
 )
 
 sentence = ""
-word = "buy"
+word = "Hamlet"
 until sentence.count(".") == 10
 sentence << word << " "
 word = mc.get(word)
